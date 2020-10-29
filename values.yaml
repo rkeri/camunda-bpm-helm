@@ -1,4 +1,6 @@
 
+image: camunda/camunda-bpm-platform:latest
+
 ### ENV EXPLANATION: https://github.com/camunda/docker-camunda-bpm-platform ###
 env:
   DB_DRIVER: "org.postgresql.Driver"

@@ -18,7 +18,7 @@ spec:
         app.kubernetes.io/component: platform
     spec:
       containers:
-      - image: camunda/camunda-bpm-platform:latest
+      - image: {{ .Values.image }}
         name: camunda-bpm
         envFrom:
           - configMapRef:
